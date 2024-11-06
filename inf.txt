@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>Добро пожаловать на мой сайт</h1>
+        <p>Здесь вы найдете меня</p>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <section>
+            <h2>Обо мне</h2>
+            <p>Меня зовут Лера, и я увлекаюсь веб-разработкой. Я люблю создавать простые и удобные сайты, которые легко использовать.</p>
+        </section>
+
+        <section>
+            <h2>Мои работы</h2>
+            <p>Я работала над несколькими интересными проектами, включая сайты, приложения и другие веб-решения. Вот некоторые из них:</p>
+            <ul>
+                <li>Проект 1: Личный блог</li>
+                <li>Проект 2: Интернет-магазин</li>
+                <li>Проект 3: Портфолио фотографа</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Контактная информация -->
+    <footer>
+        <h2>Контакты</h2>
+        <p>Вы можете связаться со мной по электронной почте: <a href="mailto:lerasedova44@gmail.com">lerasedova44@gmail.com</a></p>
+    </footer>
+</body>
+</html>
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+    border-bottom: 2px solid #f4b41a;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Контакты внизу страницы */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #f4b41a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
